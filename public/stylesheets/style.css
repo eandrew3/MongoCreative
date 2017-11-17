@@ -1,0 +1,91 @@
+body {
+  padding: 50px;
+  font: 14px", Helvetica, Arial, sans-serif;
+  font-family: 'Advent Pro';
+  background-image: url("pic.png");
+  background-size: cover;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  font-family: 'Advent Pro';
+  font-size: 30px;
+}
+
+h2 {
+  font-family: 'Advent Pro';
+  font-size: 40px;
+}
+
+h3 {
+  font-family: 'Advent Pro';
+  font-style: bold;
+  font-size: 25px;
+}
+
+h4 {
+  font-family: 'Advent Pro';
+  font-size: 20px;
+}
+
+h5 {
+  font-family: 'Advent Pro';
+  font-size: 16px;
+}
+
+#delOne {
+  margin: 5px;
+  background-color: white;
+}
+
+
+.button {
+    background-color: blue; /* Green */
+    border: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Advent Pro';
+}
+
+#getItems {
+    background-color: blue; /* Green */
+    border: none;
+    color: white;
+    padding: 5 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+#postItem {
+    background-color: blue; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    font-family: "Advent Pro";
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#deleteItems {
+    background-color: blue; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    font-family: "Advent Pro";
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}

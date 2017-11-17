@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My To Do List</title>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+<script src="javascripts/js.js"></script>
+<script>
+function func(e) {
+  e.style.textDecoration = "line-through";
+  return false;
+}
+</script>
+<link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
+<link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+<h2>To Do List</h2>
+<form id="itemForm" action="">
+<label for="name"><h1>Task: </h1></label><input type="text" id="name" placeholder="Name"><br>
+<label for="item"><h1>Class: </h1></label><input type="text" id="item" placeholder="Class"><br>
+<label for="due"><h1>Due Date: </h1></label><input type="text" id="due" placeholder="Due date"><br>
+</form>
+<br>
+<div id="button">
+<button id="postItem">Add Task</button>
+<!--<button id="getItems">Update Task List</button> -->
+<button id="deleteItems">Clear</button>
+</div>
+<!--<div id="json"></div> -->
+<div id="done"></div>
+<h3>
+<div id="items"></div>
+</h3>
+</body>
+</html>
